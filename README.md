@@ -25,7 +25,7 @@ O objetivo do projeto é mostrar a construção da pipeline em ambiente local pa
 
 Para preparação do ambiente local, optei para utilização do Docker, que me permite criar, implantar e executar aplicativos em contêineres conforme a imagem a seguir:
 
-imagem
+![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte1.png)
 
 A criação desses contêineres foram feitos de acordo com a documentação Docker: https://docs.docker.com/
 
