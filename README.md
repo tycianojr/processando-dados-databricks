@@ -23,7 +23,7 @@ O objetivo do projeto é mostrar a construção da pipeline em ambiente local pa
 - Databricks Platform
 - Amazon Web Services
 
-Para preparação do ambiente local, optei para utilização do Docker, que me permite criar, implantar e executar aplicativos em contêineres conforme a imagem a seguir:
+Para preparação do ambiente local, optei utilizar o Docker, que me permite criar, implantar e executar aplicativos em contêineres conforme a imagem a seguir:
 
 ![docker](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/docker.png)
 
@@ -90,7 +90,7 @@ ALTER TABLE dbadmin.tb_usuarios
 
 ### Airbyte
 
-Para conexão do ambiente local com a nuvem escolhi o Airbyte, que é uma plataforma de código aberto que permite criar pipelines de dados de forma fácil e escalável. Para isso, precisei configurar o conector do banco de dados (postegres) com o Databricks, conforme a seguir:
+Para conexão do ambiente local com a nuvem, escolhi o Airbyte, que é uma plataforma de código aberto que permite criar pipelines de dados de forma fácil e escalável. Para isso, precisei configurar o conector do banco de dados (postegres) com o Databricks, conforme a seguir:
 
 ![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte1.png)
 
