@@ -94,6 +94,20 @@ Para conexão do ambiente local com a nuvem, escolhi o Airbyte, que é uma plata
 
 ![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte1.png)
 
+Para conseguir fazer a conexão da fonte de dados e do destino é preciso passar configurações de credenciais:
+
+### Airbyte - Postgres
+
+![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte-conexão1.png)
+
+### Airbyte - Databricks
+
+![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte-conexão2.png)
+
+###  Airbyte - AWS
+
+![airbyte](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/airbyte-conexão3.png)
+
 Mais informações: https://docs.airbyte.com/
 
 ### AWS e Databricks
@@ -113,7 +127,7 @@ A camada de armazenamento utilizada é o Delta Lake, possibilitando a manipulaç
 
 ### Databricks
 
-Após o Airbyte fazer a ingestão de dados do Postgres para o DeltaLake, é possível construir uma pipeline analytics conforme a necessidade do projeto:
+Após o Airbyte fazer a ingestão de dados do Postgres para o Data Lake, é possível construir uma pipeline analytics conforme a necessidade do projeto:
 
 ![databricks1](https://github.com/tycianojr/processando-dados-databricks/blob/main/img/databricks1.png)
 
