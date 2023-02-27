@@ -4,7 +4,7 @@
 
 Nos dias de hoje, é comum que empresas e organizações precisem lidar com grandes quantidades de dados, provenientes de diversas fontes, e utilizá-los de forma eficiente para obter insights valiosos para o negócio. Para isso, é essencial contar com um pipeline de dados bem estruturado, que possa coletar, armazenar e processar essas informações de forma automatizada e escalável.
 
-Neste contexto, uma solução bastante popular é a combinação de ferramentas como Dockers, Postegres, Airbyte, Databricks e AWS. Juntos, esses componentes podem formar um pipeline de dados completo e robusto, capaz de lidar com uma grande variedade de casos de uso e de se adaptar às necessidades específicas de cada organização. Neste sentido, a utilização dessas ferramentas pode representar um grande diferencial competitivo para empresas que precisam lidar com grandes volumes de dados e tomar decisões baseadas em insights valiosos.
+Neste contexto, uma solução bastante popular é a combinação de ferramentas como Docker, Postegres, Airbyte, Databricks e AWS. Juntos, esses componentes podem formar um pipeline de dados completo e robusto, capaz de lidar com uma grande variedade de casos de uso e de se adaptar às necessidades específicas de cada organização. Neste sentido, a utilização dessas ferramentas pode representar um grande diferencial competitivo para empresas que precisam lidar com grandes volumes de dados e tomar decisões baseadas em insights valiosos.
 
 ## Objetivo
 
